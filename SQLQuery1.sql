@@ -23,8 +23,8 @@ CREATE TABLE Products (
 );
 
 INSERT INTO ProductTypes (Id,TypeName) VALUES
-(1, 'Овощи'),
-(2, 'Фрукты')
+(1, 'РћРІРѕС‰Рё'),
+(2, 'Р¤СЂСѓРєС‚С‹')
 
 
 INSERT INTO Suppliers (Id,SupplierName) VALUES
@@ -33,7 +33,7 @@ INSERT INTO Suppliers (Id,SupplierName) VALUES
 
 
 INSERT INTO Products (Id,ProductName, ProductTypeId, SupplierId, Quantity, CostPrice, SupplyDate) VALUES
-(1,'Яблоко', 2, 2, 100, 50.00, '2025-03-25'),
-(2,'Бананы', 2, 2, 120, 60.00, '2025-03-26')
+(1,'РЇР±Р»РѕРєРё', 2, 2, 100, 50.00, '2025-03-25'),
+(2,'Р‘Р°РЅР°РЅС‹', 2, 2, 120, 60.00, '2025-03-26')
 
 
